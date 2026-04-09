@@ -1,0 +1,99 @@
+/* css/style.css */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #5f5cff, #7c7bff);
+  color: #333;
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 20px;
+  padding: 30px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.greeting h1 {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.greeting p {
+  color: gray;
+}
+
+.timer-card {
+  text-align: center;
+}
+
+.timer-card h1 {
+  font-size: 3rem;
+  margin: 10px 0;
+}
+
+.btn-group button {
+  margin: 5px;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 8px;
+  background: #5f5cff;
+  color: white;
+  cursor: pointer;
+}
+
+.input-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.input-group input {
+  flex: 1;
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.input-group button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 8px;
+  background: #5f5cff;
+  color: white;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  border-bottom: 1px solid #eee;
+}
+
+.task-done {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.links button {
+  margin: 5px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: none;
+  background: #eee;
+  cursor: pointer;
+}
